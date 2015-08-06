@@ -1,0 +1,12 @@
+{
+  "data_dir": "C:\\Consul\\Data",
+  "log_level": "DEBUG",
+  "node_name": "#NODENAME#",
+  "server": true,
+  "ui_dir": "C:\\Consul\\UI",
+  "start_join": ["#JOINNODE1#","#JOINNODE2#","#JOINNODE3#"],
+  "advertise_addr": "#PRIVATEIP#",
+  "bootstrap_expect": 3,
+  "advertise_addr_wan": "#PUBLICIP#",
+  "datacenter": "#DC#"
+ }
