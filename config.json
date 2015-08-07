@@ -11,5 +11,6 @@
   "datacenter": "#DC#",
   "ports": {
     "dns":53
-  }
+  },
+  "bootstrap_expect": 3
 }
