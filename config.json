@@ -4,7 +4,7 @@
   "node_name": "#NODENAME#",
   "server": true,
   "ui_dir": "C:\\Consul\\ui\\dist",
-  "start_join": ["#JOINNODE1#","#JOINNODE2#","#JOINNODE3#"],
+  "start_join": ["#JOINNODE1#","#JOINNODE2#"],
   "rejoin_after_leave": true,
   "advertise_addr": "#PRIVATEIP#",
   "advertise_addr_wan": "#PUBLICIP#",
