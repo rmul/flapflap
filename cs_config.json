@@ -1,0 +1,17 @@
+{
+  "data_dir": "C:\\Consul\\Data",
+  "log_level": "DEBUG",
+  "node_name": "#NODENAME#",
+  "server": true,
+  "ui_dir": "C:\\Consul\\ui\\dist",
+  "start_join": ["#JOINNODE1#"],
+  "start_join_wan": ["#AWSNODE1#","#AWSNODE2#", "#AWSNODE3#"],
+  "rejoin_after_leave": true,
+  "advertise_addr": "#PRIVATEIP#",
+  "advertise_addr_wan": "#PUBLICIP#",
+  "datacenter": "#DC#",
+  "ports": {
+    "dns":53
+  },
+  "bootstrap_expect": 3
+}
