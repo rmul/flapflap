@@ -5,6 +5,7 @@
   "server": true,
   "ui_dir": "C:\\Consul\\ui\\dist",
   "start_join": ["#JOINNODES#"],
+  "start_join_wan": ["#JOINWANNODES#"],
   "rejoin_after_leave": true,
   "advertise_addr": "#PRIVATEIP#",
   "advertise_addr_wan": "#PUBLICIP#",
