@@ -1,0 +1,15 @@
+{
+  "data_dir": "C:\\Consul\\Data",
+  "log_level": "DEBUG",
+  "node_name": "#NODENAME#",
+  "server": true,
+  "ui_dir": "C:\\Consul\\ui\\dist",
+  "start_join": ["#JOINNODES#"],
+  "rejoin_after_leave": true,
+  "advertise_addr": "#PRIVATEIP#",
+  "datacenter": "#DC#",
+  "ports": {
+    "dns":53
+  },
+  "bootstrap_expect": 3
+}
