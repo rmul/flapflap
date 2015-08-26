@@ -13,5 +13,6 @@
   "ports": {
     "dns":53
   },
+  "recursors": ["10.0.10.1"],
   "bootstrap_expect": 3
 }
