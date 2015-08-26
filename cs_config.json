@@ -1,6 +1,6 @@
 {
   "data_dir": "C:\\Consul\\Data",
-  "log_level": "DEBUG",
+  "log_level": "INFO",
   "node_name": "#NODENAME#",
   "server": true,
   "ui_dir": "C:\\Consul\\ui\\dist",
